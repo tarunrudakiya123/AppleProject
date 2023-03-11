@@ -1,0 +1,1308 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: rgb(43, 41, 41);
+    float: left;
+    /* position: sticky; */
+    top: 0px;
+    z-index: 1;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 13.5px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    left: 150px;
+    font-weight: bolder;
+    font-family: 'M PLUS 1p', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+.fab {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 10px;
+
+}
+
+.fas {
+    font-size: 14px;
+}
+
+#search {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: 'M PLUS 1p', sans-serif;
+    width: 130px;
+    position: relative;
+    left: 15px;
+
+}
+
+nav a:hover, .s1:hover {
+    color: rgb(189, 194, 167);
+    cursor: pointer;
+
+}
+
+.offer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'M PLUS 1p', sans-serif;
+    padding: 10px;
+    top: 50px;
+    z-index: 99;
+    background-color: white;
+
+}
+
+body {
+    background-color: #f5f5f7;
+    /* background-color: rgb(253, 243, 243); */
+}
+
+.S1 {
+    width: 100%;
+    /* border: 2px solid black; */
+    overflow: hidden;
+}
+
+.h1 {
+    font-size: 40px;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    position: relative;
+    left: 90px;
+    top: 90px;
+
+}
+
+.h2 {
+    overflow: hidden;
+    font-size: 40px;
+    color: rgb(92, 92, 92);
+    font-family: 'M PLUS 1p', sans-serif;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+.h3 {
+    font-size: 40px;
+    color: rgb(92, 92, 92);
+    font-family: 'M PLUS 1p', sans-serif;
+    position: relative;
+    left: 90px;
+    top: 25px;
+}
+
+.inquiry {
+    position: relative;
+    left: 970px;
+    bottom: 95px;
+    border-radius: 50px;
+}
+
+.p1 {
+    font-size: 16px;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: black;
+    position: relative;
+    left: 1020px;
+    bottom: 128px;
+}
+
+.link1 {
+    text-decoration: none;
+    color: rgb(87, 87, 194);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 1020px;
+    bottom: 128px;
+}
+
+.row1 {
+    height: 300px;
+    width: 90%;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 90px;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.i1 {
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.i1:hover {
+    transition: all ease 0.3s;
+    transition-duration: 0.8s;
+    transform: scale(1.2);
+
+}
+
+.All_link {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.All_link a {
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.All_link a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.a1 {
+    position: relative;
+    left: 114px;
+    bottom: 175px;
+
+}
+
+.a2 {
+    position: relative;
+    left: 149px;
+    bottom: 175px;
+    z-index: 999;
+}
+
+.a3 {
+    position: relative;
+    left: 198px;
+    bottom: 175px;
+}
+
+.a4 {
+    position: relative;
+    left: 217px;
+    bottom: 175px;
+}
+
+.a5 {
+    position: relative;
+    left: 226px;
+    bottom: 175px;
+}
+
+.a6 {
+    position: relative;
+    left: 204px;
+    bottom: 175px;
+}
+
+.a7 {
+    position: relative;
+    left: 170px;
+    bottom: 175px;
+}
+
+
+.a8 {
+    position: relative;
+    left: 121px;
+    bottom: 175px;
+}
+
+.a9 {
+    position: relative;
+    left: 85px;
+    bottom: 175px;
+}
+
+
+
+.h4 {
+    font-size: 30px;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+}
+
+.h5 {
+    font-size: 30px;
+    color: rgb(92, 92, 92);
+    font-family: 'M PLUS 1p', sans-serif;
+    position: relative;
+    left: 245px;
+    bottom: 144px;
+
+}
+
+.article-1 {
+    height: 550px;
+    width: 100%;
+    /* border: 2px solid green; */
+    position: relative;
+    bottom: 139px;
+    display: flex;
+    /* overflow-y: hidden; */
+
+
+}
+
+.Article1 {
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 20px;
+    left: 90px;
+    border-radius: 30px;
+    background-image: url("Apple Images/Group\ Product3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 3px 6px gray;
+    background-color: white;
+}
+
+#h6 {
+    color: rgb(19, 194, 71);
+    font-size: 29px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+#hh1 {
+    color: rgb(139, 131, 131);
+    font-size: 17px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 60px;
+}
+
+.p2 a {
+    text-decoration: none;
+    text-shadow: 1px 1px 0px gray;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Article2 {
+    height: 500px;
+    width: 350px;
+    border: 1px solid black;
+    position: relative;
+    top: 20px;
+    left: 130px;
+    border-radius: 30px;
+    background-image: url("Apple Images/Iphone-2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 3px 6px gray;
+    background-color: black;
+
+}
+
+#h7 {
+    color: white;
+    font-size: 29px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+#h8 {
+    color: rgb(139, 131, 131);
+    font-size: 16px;
+    position: relative;
+    left: 20px;
+    top: 60px;
+    font-family: sans-serif;
+
+}
+
+.p3 a {
+    text-decoration: none;
+    text-shadow: 1px 0px 0px rgb(255, 251, 251);
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.Article3 {
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 20px;
+    left: 170px;
+    border-radius: 30px;
+    /* background-image: url("Apple Images/Watch20.jpg"); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position-y: 150px; */
+    box-shadow: 2px 3px 6px gray;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.Watch1{
+    position:absolute;
+    height: 400px;
+    top: 155px;
+    left: 50px;
+}   
+
+
+#h9 {
+    color: orangered;
+    font-size: 29px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 45px;
+}
+
+#h10 {
+    color: rgb(139, 131, 131);
+    font-size: 16px;
+    position: relative;
+    left: 20px;
+    top: 60px;
+    font-family: sans-serif;
+
+}
+
+.p4 a {
+    text-decoration: none;
+    text-shadow: 1px 1px 0px gray;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Article1:hover, .Article2:hover,.Article4:hover {
+    transition: all ease-in 1s;
+    transition-duration: 3s;
+    background-position: 90px;
+}
+
+.Watch1:hover{
+    transition: all ease-in 0.4s;
+    transition-duration: 0.5s;
+    left: -20px;
+    top: 120px;
+    transform: scale(0.8);
+    } 
+
+
+/*  */
+.Article4 {
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid black; */
+position: relative;
+top: 20px;
+left: 210px;
+border-radius: 30px;
+background-image: url("Apple Images/Iphone-1.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-position-y: 0px;
+box-shadow: 2px 3px 6px gray;
+background-color: white;
+
+}
+
+*/ #h11 {
+    color: black;
+    font-size: 29px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 45px;
+}
+
+#h12 {
+    color: rgb(139, 131, 131);
+    font-size: 16px;
+    position: relative;
+    left: 20px;
+    top: 60px;
+    font-family: sans-serif;
+
+}
+
+.p5 a {
+    text-decoration: none;
+    text-shadow: 1px 1px 0px gray;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.h13 {
+    font-size: 30px;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    position: relative;
+    left: 90px;
+    bottom: 90px;
+}
+
+.h14 {
+    font-size: 30px;
+    color: rgb(92, 92, 92);
+    font-family: 'M PLUS 1p', sans-serif;
+    position: relative;
+    left: 265px;
+    bottom: 134px;
+
+}
+
+.article-2 {
+    height: 550px;
+    width: 100%;
+    /* border: 2px solid green; */
+    position: relative;
+    bottom: 139px;
+    display: flex;
+}
+
+.Article5 {
+    height: 500px;
+    width: 960px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 20px;
+    left: 90px;
+    border-radius: 30px;
+    background-image: url("Apple Images/Group\ products\ img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position-y: 240px;
+    box-shadow: 2px 3px 6px gray;
+    background-color: rgb(255, 255, 255);
+}
+
+#h13 {
+    color: black;
+    font-size: 29px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+
+.p6 a {
+    text-decoration: none;
+    text-shadow: 1px 1px 0px gray;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.Article6 {
+    height: 240px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 20px;
+    left: 150px;
+    border-radius: 30px;
+    background-image: url("Apple Images/IconPhoto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 3px 6px gray;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.p7 {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: black;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+
+.Article7 {
+    height: 240px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 280px;
+    right: 288px;
+    border-radius: 30px;
+    /* background-image: url("Apple Images/apple-logo.webp"); */
+    background-image: url("Apple Images/Macgif.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-position-y: -0px; */
+    box-shadow: 2px 3px 6px gray;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.p8 {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: black;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.Article6:hover {
+    transition: all ease-in-out 2s;
+    transition-duration: 3s;
+    background-position-y: 20px;
+}
+
+.HEADER {
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+}
+
+
+.article-3 {
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid green; */
+    position: relative;
+    bottom: 60px;
+    display: flex;
+}
+
+.h15 {
+    font-size: 30px;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.h16 {
+    position: relative;
+    left: 15px;
+    font-size: 30px;
+    color: rgb(92, 92, 92);
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.Article8 {
+    height: 450px;
+    width: 260px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border-radius: 30px;
+    /* background-image: url("Apple Images/homepod3.png"); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+     background-position-y: -50px;  */
+    box-shadow: 2px 3px 6px gray;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.homepod {
+    width: 330px;
+    height: 390px;
+    position: relative;
+    left: -40px;
+    top: -40px;
+}
+
+.homepod:hover {
+    transform: scale(1.2);
+    transition: .6S ease-out;
+}
+
+
+.p9 a {
+    text-decoration: none;
+    text-shadow: 1px 1px 0px gray;
+    position: relative;
+    left: 20px;
+    top: -90px;
+    color: rgb(223, 131, 45);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#h14 {
+    color: black;
+    font-size: 23px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    bottom: 62px;
+}
+
+#h15 {
+    color: rgb(95, 90, 90);
+    font-size: 14px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+}
+
+
+.Article9 {
+    height: 450px;
+    width: 260px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 10px;
+    left: 125px;
+    border-radius: 30px;
+    /* background-image: url("Apple Images/homepod3.png"); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+     background-position-y: -50px;  */
+    box-shadow: 4px 7px 10px rgb(83, 79, 79);
+    background-color: rgb(26, 22, 22);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.ipods {
+    width: 225px;
+    height: 225px;
+    position: relative;
+    left: 25px;
+    top: 40px;
+}
+
+.ipods:hover {
+    transform: scale(1.2);
+    transition: .9S ease-out;
+}
+
+.p10 a {
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgb(255, 250, 250);
+    position: relative;
+    left: 20px;
+    bottom: -80px;
+    color: rgb(223, 131, 45);
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#h16 {
+    color: rgb(255, 241, 241);
+    font-size: 23px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 95px;
+}
+
+#h17 {
+    color: rgb(192, 189, 189);
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 110px;
+}
+
+.Article10 {
+    height: 450px;
+    width: 260px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 10px;
+    left: 150px;
+    border-radius: 30px;
+    /* background-image: url("Apple Images/homepod3.png"); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+     background-position-y: -50px;  */
+    box-shadow: 2px 3px 6px gray;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Airpod_Max {
+    width: 219px;
+    height: 219px;
+    position: relative;
+    left: 25px;
+    top: 40px;
+
+}
+
+.Airpod_Max:hover {
+    transform: scale(1.2);
+    transition: .6S ease-out;
+
+}
+
+.p11 a {
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgb(255, 250, 250);
+    position: relative;
+    left: 20px;
+    bottom: -80px;
+    color: rgb(223, 131, 45);
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#h18 {
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 95px;
+}
+
+#h19 {
+    color: rgb(97, 86, 86);
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 120px;
+}
+
+.Article11 {
+    height: 450px;
+    width: 260px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 10px;
+    left: 175px;
+    border-radius: 30px;
+    /* background-image: url("Apple Images/homepod3.png"); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+     background-position-y: -50px;  */
+    box-shadow: 4px 7px 10px rgb(83, 79, 79);
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+.AirPod_Pro {
+    width: 100px;
+    height: 175px;
+    position: relative;
+    left: 65px;
+    top: 80px;
+    border-radius: 30%;
+
+}
+
+.AirPod_Pro:hover {
+    transform: scale(1.2);
+    transition: .7S ease-out;
+}
+
+.p12 a {
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgb(255, 250, 250);
+    position: relative;
+    left: 20px;
+    bottom: -125px;
+    color: rgb(223, 131, 45);
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#h20 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 135px;
+}
+
+#h21 {
+    color: rgb(197, 186, 186);
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    left: 20px;
+    top: 160px;
+}
+
+.Back_to_top{
+    z-index: 99;
+    position:absolute;
+    top: 3500px;
+    left: 1240px;
+    border-radius: 10px;
+}
+
+.Back_button{
+    border-radius: 10px;
+}
+
+.Back_button:hover{
+    transition: all 0.9s linear;
+    rotate: 360deg;
+}
+
+.Writing_Section{
+    height: 660px;
+    width: 100%;
+    /* border: 2px solid green; */
+    position: relative;
+    bottom: 70px;
+
+}
+
+.Heading {
+    position: relative;
+    left: 110px;
+    top: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.aa1, .aa2 {
+    text-decoration: none;
+    position: relative;
+    top: 60px;
+    left: 112px;
+    font-size: 15px;
+    color: rgb(255, 243, 243);
+    background-color: rgb(110, 79, 79);
+    font-family: sans-serif;
+    border: none;
+    padding: 10px;
+    /* border: 2px solid black; */
+    border-radius: 40px;
+}
+
+.Writing_Section .aa1:hover, .aa2:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.p13 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 100px;
+    width: 85%;
+    line-height: 20px;
+
+}
+
+.p14 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 115px;
+    width: 85%;
+    line-height: 20px;
+}
+
+
+.p15 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 132px;
+    width: 85%;
+    line-height: 20px;
+}
+
+.p16 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 145px;
+    width: 85%;
+    line-height: 20px;
+}
+
+.p17 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 155px;
+    width: 85%;
+    line-height: 20px;
+}
+
+.p18 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 185px;
+    width: 85%;
+    line-height: 20px;
+}
+
+
+
+
+footer {
+    height: 530px;
+    width: 100%;
+    color: none;
+    /* border: 2px solid black; */
+    /* background-image: url("Apple Images/Apple lo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: -200px; */
+    /* overflow: hidden; */
+    /* border: 1px solid black; */
+    overflow: hidden;
+    transition: all 0.4s linear;
+    background-color: rgb(247, 240, 224);
+
+}
+
+footer:hover {
+    background-position-x: 40px;
+
+
+}
+
+
+footer .Box1 {
+    height: 400px;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: 80px;
+
+}
+
+.h22 {
+    color: rgb(31, 20, 49);
+    margin: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    width: 58%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    text-shadow: 1px 2px 1px rgb(187, 185, 185);
+    letter-spacing: 1px;
+}
+
+footer .Box1 a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    left: 35px;
+    max-width: 5px 0px;
+    line-height: 40px;
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 13px;
+    text-align: left;
+
+}
+
+footer .Box2 {
+    height: 400px;
+    width: 12%;
+    position: relative;
+    left: 310px;
+    /* background-color: aqua; */
+    bottom: 325px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+.h23 {
+    color: rgb(31, 20, 49);
+    margin: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 95px;
+    left: 17px;
+    font-weight: bold;
+    width: 52%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    text-shadow: 1px 2px 1px rgb(187, 185, 185);
+    letter-spacing: 1px;
+}
+
+footer .Box2 a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 47px;
+    bottom: 110px;
+    line-height: 40px;
+    /* width: -40px; */
+    text-align: center;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+footer .Box3 {
+    height: 400px;
+    width: 12%;
+    position: relative;
+    left: 490px;
+    /* background-color: aqua; */
+    bottom: 670px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+.h24 {
+    color: rgb(31, 20, 49);
+    margin: 20px;
+    font-size: 17px;
+    position: relative;
+    bottom: 170px;
+    width: 74%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    left: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 1px rgb(187, 185, 185);
+    letter-spacing: 1px;
+
+}
+
+footer .Box3 a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    bottom: 175px;
+    line-height: 40px;
+    /* width: -40px; */
+    text-align: center;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+
+footer .Box4 {
+    height: 400px;
+    width: 15%;
+    position: relative;
+    left: 650px;
+    /* background-color: aqua; */
+    bottom: 950px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+.h25 {
+    color: rgb(31, 20, 49);
+    margin: 20px;
+    font-size: 17px;
+    position: relative;
+    bottom: 310px;
+    left: 135px;
+    width: 41%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 1px rgb(187, 185, 185);
+    letter-spacing: 1px;
+}
+
+footer .Box4 a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 155px;
+    bottom: 313px;
+    line-height: 40px;
+    /* width: -40px; */
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-family: 'M PLUS 1p', sans-serif;
+    text-align: left;
+}
+
+
+footer .Box5 {
+    height: 400px;
+    width: 15%;
+    position: relative;
+    left: 645px;
+    /* background-color: aqua; */
+    bottom: 950px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+
+
+}
+
+.h26 {
+    color: rgb(31, 20, 49);
+    margin: 20px;
+    font-size: 17px;
+    position: relative;
+    bottom: 730px;
+    width: 68%;
+    text-align: center;
+    left: 365px;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 1px rgb(187, 185, 185);
+    letter-spacing: 1px;
+}
+
+footer .Box5 a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    left: 385px;
+    bottom: 735px;
+    line-height: 40px;
+    /* width: -40px; */
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-family: 'M PLUS 1p', sans-serif;
+    text-align: left;
+}
+
+.Box1 a:hover, .Box2 a:hover, .Box3 a:hover, .Box4 a:hover, .Box5 a:hover {
+    color: rgb(104, 101, 74);
+    font-size: 16px;
+    /* transition: all 1s ease-in-out;
+    transition-duration: 0.5s; */
+    font-weight: bolder;
+    transform: scale(1.2);
+    transition: .2S ease-out;
+}
+
+
+
+.FP1 {
+    position: absolute;
+    top: 3550px;
+    left: 110px;
+    font-family: 'M PLUS 1p', sans-serif;
+    width: 85%;
+    border-bottom: 2px solid rgba(59, 56, 56, 0.486);
+
+}
+
+.FP2 {
+    position: absolute;
+    top: 3580px;
+    font-family: 'M PLUS 1p', sans-serif;
+    left: 110px;
+
+}
+
+.FP3 {
+    position: absolute;
+    top: 3580px;
+    font-family: 'M PLUS 1p', sans-serif;
+    left: 510px;
+    word-spacing: 5px;
+
+}

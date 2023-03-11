@@ -1,0 +1,1072 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: rgb(43, 41, 41);
+    float: left;
+    /* position: sticky; */
+    top: 0px;
+    z-index: 1;
+
+
+}
+
+nav a:hover{
+    color: wheat;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 13.5px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    left: 150px;
+    font-weight: bolder;
+    font-family: 'M PLUS 1p', sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+.fab {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 10px;
+
+}
+
+.fas {
+    font-size: 14px;
+}
+
+#search {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: 'M PLUS 1p', sans-serif;
+    width: 130px;
+    position: relative;
+    left: 15px;
+
+}
+
+nav:hover, .Section_1:hover {
+    color: rgb(189, 194, 167);
+    cursor: pointer;
+
+}
+
+
+
+body {
+    background-color: #f5f5f7;
+    /* overflow: hidden; */
+    /* background-color: rgb(253, 243, 243); */
+    overflow-x: hidden;
+
+}
+
+.Icon_Heading {
+    height: 120px;
+    width: 100%;
+    /* border: 2px solid rgb(255, 52, 52); */
+    background-color:rgba(251,251,253,255);
+    position: relative;
+    top: 50px;
+
+
+}
+
+.Icon_Heading:hover {
+    cursor: pointer;
+
+
+}
+
+.I1 {
+    position: relative;
+    top: -35px;
+    left: 210px;
+    margin-left: 25px;
+
+}
+
+.Icon_Link a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.I1:hover {
+    transition: all ease 0.3s;
+    transition-duration: 0.8s;
+    transform: scale(1.2);
+
+}
+
+#a1:hover {
+    transition: all ease 0.1s;
+    transform: scale(1.1);
+    color: rgb(99, 18, 175);
+
+
+}
+
+.a1 {
+    position: relative;
+    left: 228px;
+    top: 7px;
+}
+
+.a2 {
+    position: relative;
+    left: 250px;
+    top: 7px;
+
+}
+
+.a3 {
+    position: relative;
+    left: 270px;
+    top: 7px;
+}
+
+.a4 {
+    position: relative;
+    left: 289px;
+    top: 7px;
+}
+
+
+.a5 {
+    position: relative;
+    left: 307px;
+    top: 7px;
+}
+
+
+.a6 {
+    position: relative;
+    left: 340px;
+    top: 7px;
+}
+
+.a7 {
+    position: relative;
+    left: 380px;
+    top: 7px;
+}
+
+.a8 {
+    position: relative;
+    left: 415px;
+    top: 7px;
+}
+
+.a9 {
+    position: relative;
+    left: 450px;
+    top: 7px;
+}
+
+.a10 {
+    position: relative;
+    left: 480px;
+    top: 7px;
+}
+
+
+.Shop_offer {
+    height: 30px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: rgb(238, 232, 232);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 33px;
+    line-height: 30px;
+}
+
+.Shop_offer:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: rgb(82, 140, 216);
+    color: #f5f5f7;
+    cursor: pointer;
+}
+
+#Shop_Link:hover {
+    color: white;
+}
+
+
+
+
+.Section_1 {
+    height: 830px;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-top: 7px solid white;
+    position: relative;
+    top: 30px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.iphone1{
+    height: 480px;
+    width: 640px;
+    position:absolute;
+    top:320px;
+    left: 330px;
+} 
+
+.ipad1:hover {
+    transition: all 2s linear;
+    transform: scale(0.9);
+
+} 
+
+
+.Heading_1 {
+    position: absolute;
+    left: 620px;
+    top: 80px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(158, 154, 153);
+
+}
+
+.Heading_2 {
+    position: absolute;
+    left: 540px;
+    text-align: center;
+    top: 110px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgb(247, 253, 255)
+}
+
+
+
+.Heading_3 {
+    position: absolute;
+    left: 470px;
+    top: 160px;
+    font-weight:bold;
+    background: -webkit-linear-gradient(180deg, #ffa9ff, #b344ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    font-size: 59px;
+
+}
+
+.link1 {
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    position: relative;
+    left: 560px;
+    top: 260px;
+    border-radius: 30px;
+    background-color: rgb(22, 22, 223);
+    border-radius: 30px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.link1 a {
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    padding: 10px;
+    line-height: 30px;
+}
+
+.link1:hover {
+    background-color: darkblue;
+}
+
+.link2 {
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    position: relative;
+    left: 630px;
+    top: 235px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link2 a {
+    text-decoration: none;
+    color: rgb(57, 131, 228);
+}
+
+.link2 a:hover {
+    border-bottom: 2px solid rgb(57, 131, 228);
+    width: 60px;
+}
+
+
+
+.Section_2 {
+    height: 550px;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-top: 7px solid white;
+    border-bottom: 2px solid rgb(128, 105, 105);
+
+    /* border: 2px solid black; */
+    position: relative;
+    top: 30px;
+    background-color: white;
+    overflow: hidden;
+
+   
+}
+
+.iphone2{
+    height: 650px;
+    width: 370px;
+    position:absolute;
+    top:-40px;
+    left: 20px;
+} 
+
+.iphone3{
+    height: 650px;
+    width: 370px;
+    position:absolute;
+    top:-40px;
+    left: 900px;
+} 
+
+
+.iphone2:hover, .iphone3:hover {
+    transition: all s linear;
+    transform: scale(0.9);
+
+} 
+
+
+.Heading_4 {
+    position: absolute;
+    left: 620px;
+    top: 50px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(158, 154, 153);
+
+}
+
+.Heading_5 {
+    position: absolute;
+    left: 560px;
+    text-align: center;
+    top: 80px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 30px;
+    color: rgb(3, 2, 2);
+    
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgb(247, 253, 255)
+}
+
+
+
+.Heading_6 {
+    position: absolute;
+    left: 440px;
+    top: 140px;
+    font-weight:bold;
+    background: -webkit-linear-gradient(130deg, #ff03ea, #0d6af5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    font-size: 59px;
+
+}
+
+.link3 {
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    position: relative;
+    left: 560px;
+    top: 230px;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(130deg, #ff03ea, #0d6af5);
+    -webkit-background-clip:content-box;
+    -webkit-text-fill-color:white;
+    background-color: rgb(22, 22, 223);
+    border-radius: 30px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.link3 a {
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    padding: 10px;
+    line-height: 30px;
+}
+
+.link3:hover {
+    background-color: darkblue;
+}
+
+.link4 {
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    position: relative;
+    left: 630px;
+    top: 205px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link4 a {
+    text-decoration: none;
+    color: rgb(57, 131, 228);
+}
+
+.link4 a:hover {
+    border-bottom: 2px solid rgb(57, 131, 228);
+    width: 60px;
+}
+
+.Section-3{
+    height: 558px;
+    width: 100%;
+    /* border: 2px solid black; */
+    border-bottom: 2px solid rgb(128, 105, 105);
+    background-image: url("Apple Images/iphone\ SE\ section\ .jpg");
+    background-repeat: no-repeat;
+
+}
+
+.Section-4{
+    height: 2100px;
+    width: 100%;
+    /* border: 2px solid black; */
+    border-bottom: 2px solid rgb(128, 105, 105);
+    background-image: url("Apple Images/iphone\ Page\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.link5 {
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    position: relative;
+    left: 300px;
+    top: 330px;
+    border-radius: 30px;
+    background-color: rgb(22, 22, 223);
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.link5 a {
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    padding: 10px;
+    line-height: 30px;
+}
+
+.link5:hover {
+    background-color: darkblue;
+}
+
+.link6 {
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    position: relative;
+    left: 360px;
+    top: 305px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link6 a {
+    text-decoration: none;
+    color: rgb(57, 131, 228);
+}
+
+.link6 a:hover {
+    border-bottom: 2px solid rgb(57, 131, 228);
+    width: 60px;
+}
+
+.Section-4 .link7{
+    position: relative;
+}
+
+.link7 {
+    width: 123px;
+    height: 45px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 113px;
+    top: 789px;
+    border-radius: 30px;
+    background-color: rgb(22, 22, 223);
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.link7 a {
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    padding: 10px;
+    line-height: 45px;
+}
+
+.link7:hover {
+    background-color: darkblue;
+}
+
+.link8{
+    width: 123px;
+    height: 45px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 353px;
+    top: 744px;
+    border-radius: 30px;
+    background-color: rgb(22, 22, 223);
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.link8 a {
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    padding: 10px;
+    line-height: 45px;
+}
+
+.link8:hover {
+    background-color: darkblue;
+}
+
+.link9 {
+    width: 123px;
+    height: 45px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 594px;
+    top: 700px;
+    border-radius: 30px;
+    background-color: rgb(22, 22, 223);
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.link9 a {
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    padding: 10px;
+    line-height: 45px;
+}
+
+.link9:hover {
+    background-color: darkblue;
+}
+
+.link10 {
+    width: 123px;
+    height: 45px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 830px;
+    top: 655px;
+    border-radius: 30px;
+    background-color: rgb(22, 22, 223);
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.link10 a {
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    padding: 10px;
+    line-height: 45px;
+}
+
+.link10:hover {
+    background-color: darkblue;
+}
+
+.link11 {
+    width: 123px;
+    height: 45px;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 1070px;
+    top: 610px;
+    border-radius: 30px;
+    background-color: rgb(22, 22, 223);
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.link11 a {
+    text-decoration: none;
+    color: rgb(255, 243, 243);
+    padding: 10px;
+    line-height: 45px;
+}
+
+.link11:hover {
+    background-color: darkblue;
+}
+
+
+
+
+.Writing_Section {
+    height: 660px;
+    width: 100%;
+    /* border: 2px solid green; */
+    position: relative;
+    top: 10px;
+
+}
+
+.Heading {
+    position: relative;
+    left: 110px;
+    top: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.aa1, .aa2 {
+    text-decoration: none;
+    position: relative;
+    top: 60px;
+    left: 112px;
+    font-size: 15px;
+    color: rgb(255, 243, 243);
+    background-color: rgb(110, 79, 79);
+    font-family: sans-serif;
+    border: none;
+    padding: 10px;
+    /* border: 2px solid black; */
+    border-radius: 40px;
+}
+
+.Writing_Section .aa1:hover, .aa2:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.p13 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 100px;
+    width: 85%;
+    line-height: 20px;
+
+}
+
+.p14 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 115px;
+    width: 85%;
+    line-height: 20px;
+}
+
+
+.p15 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 132px;
+    width: 85%;
+    line-height: 20px;
+}
+
+.p16 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 145px;
+    width: 85%;
+    line-height: 20px;
+}
+
+.p17 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 155px;
+    width: 85%;
+    line-height: 20px;
+}
+
+.p18 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+    left: 112px;
+    top: 185px;
+    width: 85%;
+    line-height: 20px;
+}
+
+
+
+
+footer {
+    height: 480px;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    color: none;
+    /* border: 2px solid black; */
+    /* background-image: url("Apple Images/Apple lo.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: -200px; */
+    /* overflow: hidden; */
+    /* border: 1px solid black; */
+   overflow: hidden;
+    transition: all 0.4s linear;
+    background-color: rgb(247, 240, 224);
+
+}
+
+footer:hover {
+    background-position-x: 40px;
+
+
+}
+
+
+footer .Box1 {
+    height: 400px;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    left: 80px;
+
+}
+
+.h22 {
+    color: rgb(31, 20, 49);
+    margin: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    width: 58%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    text-shadow: 1px 2px 1px rgb(187, 185, 185);
+    letter-spacing: 1px;
+}
+
+footer .Box1 a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    left: 35px;
+    max-width: 5px 0px;
+    line-height: 40px;
+    width: 60px;
+    text-align: center;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 13px;
+    text-align: left;
+
+}
+
+footer .Box2 {
+    height: 400px;
+    width: 12%;
+    position: relative;
+    left: 310px;
+    /* background-color: aqua; */
+    bottom: 325px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+.h23 {
+    color: rgb(31, 20, 49);
+    margin: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 95px;
+    left: 17px;
+    font-weight: bold;
+    width: 52%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    text-shadow: 1px 2px 1px rgb(187, 185, 185);
+    letter-spacing: 1px;
+}
+
+footer .Box2 a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 47px;
+    bottom: 110px;
+    line-height: 40px;
+    /* width: -40px; */
+    text-align: center;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+footer .Box3 {
+    height: 400px;
+    width: 12%;
+    position: relative;
+    left: 490px;
+    /* background-color: aqua; */
+    bottom: 670px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+.h24 {
+    color: rgb(31, 20, 49);
+    margin: 20px;
+    font-size: 17px;
+    position: relative;
+    bottom: 170px;
+    width: 74%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    left: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 1px rgb(187, 185, 185);
+    letter-spacing: 1px;
+
+}
+
+footer .Box3 a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 80px;
+    bottom: 175px;
+    line-height: 40px;
+    /* width: -40px; */
+    text-align: center;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+
+footer .Box4 {
+    height: 400px;
+    width: 15%;
+    position: relative;
+    left: 650px;
+    /* background-color: aqua; */
+    bottom: 950px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+.h25 {
+    color: rgb(31, 20, 49);
+    margin: 20px;
+    font-size: 17px;
+    position: relative;
+    bottom: 310px;
+    left: 135px;
+    width: 41%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 1px rgb(187, 185, 185);
+    letter-spacing: 1px;
+}
+
+footer .Box4 a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 155px;
+    bottom: 313px;
+    line-height: 40px;
+    /* width: -40px; */
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-family: 'M PLUS 1p', sans-serif;
+    text-align: left;
+}
+
+
+footer .Box5 {
+    height: 400px;
+    width: 15%;
+    position: relative;
+    left: 645px;
+    /* background-color: aqua; */
+    bottom: 950px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+
+
+}
+
+.h26 {
+    color: rgb(31, 20, 49);
+    margin: 20px;
+    font-size: 17px;
+    position: relative;
+    bottom: 730px;
+    width: 68%;
+    text-align: center;
+    left: 365px;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 1px rgb(187, 185, 185);
+    letter-spacing: 1px;
+}
+
+footer .Box5 a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    left: 385px;
+    bottom: 735px;
+    line-height: 40px;
+    /* width: -40px; */
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-family: 'M PLUS 1p', sans-serif;
+    text-align: left;
+}
+
+.Box1 a:hover, .Box2 a:hover, .Box3 a:hover, .Box4 a:hover, .Box5 a:hover {
+    color: rgb(104, 101, 74);
+    font-size: 16px;
+    /* transition: all 1s ease-in-out;
+    transition-duration: 0.5s; */
+    font-weight: bolder;
+    transform: scale(1.2);
+    transition: .2S ease-out;
+}
+
+
+
+.FP1 {
+    position: absolute;
+    top: 388px;
+    left: 110px;
+    font-family: 'M PLUS 1p', sans-serif;
+    width: 85%;
+    border-bottom: 2px solid rgba(59, 56, 56, 0.486);
+
+}
+
+.FP2 {
+    position: absolute;
+    top: 418px;
+    font-family: 'M PLUS 1p', sans-serif;
+    left: 110px;
+
+}
+
+.FP3 {
+    position: absolute;
+    top: 420px;
+    font-family: 'M PLUS 1p', sans-serif;
+    left: 510px;
+    word-spacing: 5px;
+
+}
+
+
+.Back_to_top{
+    z-index: 99;
+    position:relative;
+    top: 1050px;
+    left: 1240px;
+    border-radius: 10px;
+}
+
+.Back_button{
+    border-radius: 10px;
+}
+
+.Back_button:hover{
+    transition: all 0.9s linear;
+    rotate: 360deg;
+}
